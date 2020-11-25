@@ -1,4 +1,4 @@
-# 311AlleghenyCallAnalysisAndPrediction
+# 311AlleghenyCallsAnalysisAndPrediction
 311 Allegheny Call Analysis, visualization, and Prediction
 
 Background
@@ -12,16 +12,21 @@ Motivation: In my quest of finding the dataset, which could function well with t
 method learned in the course. I stumbled upon this dataset which will provide a great supervised
 learning solution using powerful classification algorithms such as Random Forest Algorithm and Time
 series analysis with ARIMA model.
+
 Tasks:
 1: Data Analysis and Visualization
+
 2: Time Series Analysis : To predict the number of 311 Request raised on each date based on the data
 available using ARIMA model
+
 3: Random Forest Classifier: Predict the values of column NEIGHBORHOOD based on the information
 contained in the other columns using Random Forest Classifier Algorithm.
+
 This data analysis is based on the hypothesis that it could be used by the county to optimally allocate
 their resource in cost efficient way. The Call volume and requests have been analyzed based on their
 origin, day of the week, day, day of the month, month of the year and further the ARIMA model is used to
 predict when can we expect higher/lower volume of request. Furthermore, Random Forest algorithm is
 used to predict the neighborhood using the coordinates of the area for which request is raised. With the
 help of prediction, County can decide on which neighborhood needs more attention based on their
-issues
+issues.
+

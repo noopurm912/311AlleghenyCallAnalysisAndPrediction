@@ -2,7 +2,9 @@
 311 Allegheny Call Analysis, visualization, and Prediction
 
 **Background**
+
 **Data used**: 311 Data - Allegheny County / City of Pittsburgh / Western PA Regional Data Center
+
 **Data Source**: [https://catalog.data.gov/dataset/311-data-in-development](https://catalog.data.gov/dataset/311-data-in-development)
 
 The dataset includes the 311 calls detail for Allegheny County, PA from 2015 to 2020. 311 is a nonemergency phone number, people can call to find information about services and to raise complaints as
@@ -16,12 +18,12 @@ series analysis with ARIMA model.
 
 **Tasks**:
 
-1: Data Analysis and Visualization
+**1: Data Analysis and Visualization**
 
-2: Time Series Analysis : To predict the number of 311 Request raised on each date based on the data
+**2: Time Series Analysis**: To predict the number of 311 Request raised on each date based on the data
 available using ARIMA model
 
-3: Random Forest Classifier: Predict the values of column NEIGHBORHOOD based on the information
+**3: Random Forest Classifier**: Predict the values of column NEIGHBORHOOD based on the information
 contained in the other columns using Random Forest Classifier Algorithm.
 
 This data analysis is based on the hypothesis that it could be used by the county to optimally allocate
